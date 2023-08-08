@@ -12,3 +12,12 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+# Ignore all cache files
+.cache
+
+# Ignore all debug files
+target/debug
+
+# Ignore all files except .rs files
+*.rs
